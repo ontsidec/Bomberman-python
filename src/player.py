@@ -15,6 +15,7 @@ class Player(object):
         self.pos_x = x
         self.pos_y = y
         self.bombs = 1
+        self.isDead = False
 
     def move(self, x, y):
         """Przesunięcie gracza na daną pozycje
